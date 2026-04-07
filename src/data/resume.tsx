@@ -55,7 +55,7 @@ export const DATA = {
     "Computer Science student and software developer focused on full-stack systems, scalable backends, and practical AI-powered products.",
   summary:
     "I build reliable web products end-to-end, from backend architecture and API design to responsive frontend experiences. I enjoy solving real business problems with clean engineering, whether that means optimizing data-heavy systems, integrating AI workflows, or shipping polished full-stack features with measurable impact.",
-  avatarUrl: me.src,
+  avatarUrl: me?.src ?? "",
   skills: [
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
@@ -123,7 +123,7 @@ export const DATA = {
       badges: [],
       location: "Toronto, ON",
       title: "Software Developer Intern",
-      logoUrl: dayforce.src,
+      logoUrl: dayforce?.src ?? "",
       start: "September 2025",
       end: "April 2026",
       description:
@@ -135,7 +135,7 @@ export const DATA = {
       href: "#",
       location: "Remote",
       title: "Full Stack Developer Intern",
-      logoUrl: codveda.src,
+      logoUrl: codveda?.src ?? "",
       start: "May 2025",
       end: "August 2025",
       description:
@@ -147,7 +147,7 @@ export const DATA = {
       badges: [],
       location: "New York, NY",
       title: "Software Engineer Fellow",
-      logoUrl: headstarter.src,
+      logoUrl: headstarter?.src ?? "",
       start: "July 2024",
       end: "September 2024",
       description:
@@ -161,7 +161,7 @@ export const DATA = {
       badges: [],
       location: "Online",
       title: "IBM Cloud and Computing Certication",
-      logoUrl: ibm.src,
+      logoUrl: ibm?.src ?? "",
       start: "2024",
       end: "2025",
       description:
@@ -173,7 +173,7 @@ export const DATA = {
       badges: [],
       location: "Online",
       title: "Frontend Development Libraries Certification",
-      logoUrl: freecodecamp.src,
+      logoUrl: freecodecamp?.src ?? "",
       start: "2024",
       end: "2024",
       description:
@@ -185,7 +185,7 @@ export const DATA = {
       badges: [],
       location: "Online",
       title: "Foundational C# With Microsoft Certification",
-      logoUrl: microsoft.src,
+      logoUrl: microsoft?.src ?? "",
       start: "2024",
       end: "2024",
       description:
@@ -197,7 +197,7 @@ export const DATA = {
       badges: [],
       location: "Online",
       title: "JavaScript Algorithms & Data Structures Certification",
-      logoUrl: freecodecamp.src,
+      logoUrl: freecodecamp?.src ?? "",
       start: "2023",
       end: "2024",
       description:
@@ -210,7 +210,7 @@ export const DATA = {
       school: "Toronto Metropolitan University",
       href: "https://www.torontomu.ca/",
       degree: "Bachelor's Degree of Computer Science (BCS)",  
-      logoUrl: tmu.src,
+      logoUrl: tmu?.src ?? "",
       start: "2023",
       end: "2027",
     },
@@ -244,7 +244,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: paperstack.src,
+      image: paperstack?.src ?? "",
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
@@ -271,7 +271,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: lune.src,
+      image: lune?.src ?? "",
       // video: "https://cdn.magicui.design/bento-grid.mp4",
     },
     {
@@ -295,7 +295,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: tfc.src,
+      image: tfc?.src ?? "",
       // video: "https://cdn.llm.report/openai-demo.mp4",
     },
     {
@@ -325,7 +325,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         }
       ],
-      image: smartdeck.src,
+      image: smartdeck?.src ?? "",
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
@@ -354,7 +354,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         }
       ],
-      image: fashion.src,
+      image: fashion?.src ?? "",
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
