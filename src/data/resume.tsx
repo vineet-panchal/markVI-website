@@ -90,7 +90,7 @@ export const DATA = {
       label: "Work Experience",
     },
     { href: "/#projects", icon: FolderIcon, label: "Projects" },
-    { href: "/#certifications", icon: NotebookIcon, label: "Certifications" },
+    // Certifications removed from navbar
   ],
   contact: {
     email: "vineetpanchal03@gmail.com",
@@ -114,6 +114,12 @@ export const DATA = {
         icon: Icons.email,
         navbar: true,
       },
+      resume: {
+        name: "View Resume",
+        url: "Vineet_Panchal_Resume.pdf", // Local PDF for best PDF viewer support
+        icon: Icons.resume,
+        navbar: true, // Show in navbar
+      }
     },
   },
   work: [
